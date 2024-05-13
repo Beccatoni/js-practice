@@ -3,3 +3,7 @@
 String.prototype.myNewMethod = function(){
     return this.toUpperCase();
 }
+
+const x = Symbol('hey');
+console.log(x); 
+// console.log(x.valueOf())
